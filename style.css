@@ -15,9 +15,9 @@
 }
 
 .header-area {
-	display: flex;
-	align-items: center;
-	/* text-align: right; */
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
 }
 
 .logo-img {
@@ -26,13 +26,13 @@
 }
 
 .logo-text {
-	color: #131318;
-	font-family: Mulish;
-	font-size: 36px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: normal;
-	margin-left: 4px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 4px;
 }
 
 .logo-text span {
@@ -51,6 +51,7 @@
     align-items: center;
     gap: 44px;
 }
+
 .menu-items li a {
     color: var(--Dark-02, #424247);
     text-align: center;
@@ -60,20 +61,41 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .menu-items li a:hover {
     color: #FF5400;
     transition: .3s;
 }
+
 .main-menu {
-	margin-left: 35%;
-	/* margin-top: 50px; */
+    margin-left: 35%;
+    /* margin-top: 50px; */
 }
+
 .header-area {
-	display: flex;
-	align-items: center;
-	/* text-align: right; */
-	margin: 28px 0px;
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    margin: 28px 0px;
 }
+
 .logo {
-	display: flex;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* slider */
+.slider-area {
+    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
 }
