@@ -280,3 +280,18 @@
 .tour-items {
     padding-right: 35px;
 }
+
+
+
+.tumbel {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.tumbel-2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.tumbel-3 {
+	display: grid;
+	grid-template-columns: auto auto;
+}
