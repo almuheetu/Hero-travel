@@ -331,3 +331,13 @@
 	margin-top: 24px;
 	margin-right: 24px;
 }
+
+
+ /* Choose Us */
+ #Choose {
+    margin-top: 100px;
+ }
+ .choose-us-area {
+	display: grid;
+	grid-template-columns: auto auto;
+}
