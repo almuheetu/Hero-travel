@@ -98,10 +98,11 @@
     height: 500px;
     border-radius: 16px;
     text-align: center;
-    
+
 
 
 }
+
 /* #overlay {
     
     border-radius: 16px;
@@ -283,15 +284,50 @@
 
 
 
+/* portfolio */
+
 .tumbel {
-	display: grid;
-	grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
 }
+
 .tumbel-2 {
-	display: grid;
-	grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
+
 .tumbel-3 {
-	display: grid;
-	grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#portfolio {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.portfolio-heading h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.portfolio-heading p {
+	color: rgba(19, 19, 24, 0.70);
+	text-align: center;
+	font-family: Mulish;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	padding: 0 255px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.portfolio-content img {
+	margin-top: 24px;
+	margin-right: 24px;
 }
