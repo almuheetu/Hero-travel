@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,22 +13,28 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .header-area {
 	display: flex;
+	align-items: center;
+	/* text-align: right; */
 }
+
 .logo-img {
     width: 48px;
-    height: 56.008px;
     flex-shrink: 0;
 }
+
 .logo-text {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+	color: #131318;
+	font-family: Mulish;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-left: 4px;
 }
+
 .logo-text span {
     color: #FF5400;
     font-family: Mulish;
@@ -35,4 +42,38 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.menu-items {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.menu-items li a {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-items li a:hover {
+    color: #FF5400;
+    transition: .3s;
+}
+.main-menu {
+	margin-left: 35%;
+	/* margin-top: 50px; */
+}
+.header-area {
+	display: flex;
+	align-items: center;
+	/* text-align: right; */
+	margin: 28px 0px;
+}
+.logo {
+	display: flex;
 }
