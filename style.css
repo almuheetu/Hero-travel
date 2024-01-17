@@ -98,7 +98,16 @@
     height: 500px;
     border-radius: 16px;
     text-align: center;
+    
+
+
 }
+/* #overlay {
+    
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+  } */
 
 .slider-heading {
     color: #FFF;
@@ -220,15 +229,15 @@
 }
 
 .tour-items li {
-	list-style: disc;
-	margin-left: 25px;
-	margin-top: 24px;
-	color: rgba(19, 19, 24, 0.70);
-	font-family: Mulish;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 26px;
+    list-style: disc;
+    margin-left: 25px;
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .tour-items li a {
@@ -255,17 +264,19 @@
 .tour-btn {}
 
 .tour-btn button {
-	width: 174px;
-	height: 52px;
-	flex-shrink: 0;
-	border-radius: 8px;
-	background: #FF5400;
-	margin-top: 32px;
-	border: none;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 32px;
+    border: none;
 }
+
 .tour-content {
-	padding-right: 70px;
+    padding-right: 70px;
 }
+
 .tour-items {
-	padding-right: 35px;
+    padding-right: 35px;
 }
