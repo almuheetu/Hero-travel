@@ -99,3 +99,90 @@
     border-radius: 16px;
     text-align: center;
 }
+
+.slider-heading {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.slider-para {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* width: 676px; */
+    padding: 0 21%;
+    padding: 25px 21%;
+}
+
+.input-field .input {
+    width: 164px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.input-field .input a {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* padding-top: 12%; */
+}
+
+.input-field {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.inputs {
+    border-radius: 8px;
+    background: #FF5400 !important;
+}
+
+.inputs a {
+    color: #fff !important;
+}
+
+.left {
+    margin-left: 60%;
+}
+
+.lefts {
+    margin-left: 40%;
+}
+
+.center {
+    text-align: center;
+    padding-top: 9%;
+}
+
+.class {
+    margin-top: 9%;
+}
+
+.slider-text {
+    padding-top: 105px;
+}
+
+.slider-input {
+    padding-top: 24px;
+}
