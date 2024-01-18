@@ -579,6 +579,7 @@
     line-height: 26px;
     /* 162.5% */
 }
+
 .lost-btn button {
     width: 174px;
     height: 52px;
@@ -597,43 +598,136 @@
 
 
 /* newsletter */
-.newsletter-area {
-	display: flex;
+#Newsletter {
+    margin-top: 100px;
 }
+
+.newsletter-img img {
+    width: 100%;
+}
+
+.newsletter-area {
+    display: flex;
+}
+
 .newsletter-content {
-	width: 474px;
-	height: 422px;
+	width: 400px;
+	height: 360px;
 	flex-shrink: 0;
 	border-radius: 16px;
 	border: 1px solid #FF5400;
-    padding: 40px;
+	padding: 30px;
+	margin-right: 24px;
 }
 .newsletter-content h3 {
-	color: #131318;
-	font-family: Mulish;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: normal;
-	padding-bottom: 16px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 16px;
 }
+
 .newsletter-content p {
-	color: #5A5A5D;
-	font-family: Mulish;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 26px;
-	padding-bottom: 24px;
-	padding-right: 25%;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 24px;
+    padding-right: 12%;
 }
+
 .input-email {
-	width: 390px;
-	height: 20px;
-	flex-shrink: 0;
-	border-radius: 8px;
-	background: rgba(19, 19, 24, 0.05);
-	padding: 20px;
-	margin-bottom: 16px;
-	border: none;
+    width: 360px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.input-text {
+    width: 360px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.newsletter-btn button {
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.gift-card {
+    /* width: ; */
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+}
+
+.gift-card {
+    width: 290px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+}
+
+.gift-card h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* transform: rotate(-19.628deg); */
+    margin-bottom: 5px;
+}
+
+.gift-card h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+.gift-card {
+	position: absolute;
+	bottom: 14%;
+	right: 15px;
+}
+.newsletter-img {
+	position: relative;
+}
+.border-top {
+	height: 1px;
+	background: rgba(19, 19, 24, 0.10);
+	margin-bottom: 24px;
 }
