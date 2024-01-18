@@ -593,3 +593,17 @@
     font-weight: 800;
     line-height: normal;
 }
+
+
+
+/* newsletter */
+.newsletter-area {
+	display: flex;
+}
+.newsletter-content {
+	width: 474px;
+	height: 422px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	border: 1px solid #FF5400;
+}
