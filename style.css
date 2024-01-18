@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
 
 * {
     margin: 0;
@@ -611,14 +611,15 @@
 }
 
 .newsletter-content {
-	width: 400px;
-	height: 360px;
-	flex-shrink: 0;
-	border-radius: 16px;
-	border: 1px solid #FF5400;
-	padding: 33px;
-	margin-right: 24px;
+    width: 400px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 33px;
+    margin-right: 24px;
 }
+
 .newsletter-content h3 {
     color: #131318;
     font-family: Mulish;
@@ -718,54 +719,72 @@
     line-height: normal;
     text-align: center;
 }
+
 .gift-card {
-	position: absolute;
-	bottom: 14%;
-	right: 15px;
+    position: absolute;
+    bottom: 14%;
+    right: 15px;
 }
+
 .newsletter-img {
-	position: relative;
-	width: 100%;
+    position: relative;
+    width: 100%;
 }
+
 .border-top {
-	height: 1px;
-	background: rgba(19, 19, 24, 0.10);
-	margin-bottom: 24px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
 }
 
 
 
 /* Footer */
 #footer {
-	margin-top: 100px;
-	background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
 }
+
 .footer-area {
-	text-align: center;
+    text-align: center;
     padding: 100px 0px;
 }
+
 .footer-logo {
-	margin: 0 39%;
-	margin-bottom: 15px;
+    margin: 0 39%;
+    margin-bottom: 15px;
 }
+
 .footer-bord {
-	text-align: center;
-	padding: 50px 0;
+    text-align: center;
+    padding: 50px 0;
 }
+
 .footer-border {
-	width: 872px;
-	height: 1px;
-	background: rgba(19, 19, 24, 0.10);
-	margin: 0px 13%;
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0px 13%;
 }
+
 .footer-para {
-	color: #5A5A5D;
-	text-align: center;
-	font-family: Mulish;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 26px;
-	padding: 0 17%;
-	margin-bottom: 32px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 17%;
+    margin-bottom: 32px;
+}
+
+/* copyright */
+.copyright-area p {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
